@@ -5,13 +5,13 @@ INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) 
 INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Devimon', '2017/05/12', 11, TRUE, 5);
 
 -- new data
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Charmander', '2020/02/08', 0, FALSE, -11.0);
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Plantmon', '2021/11/15', 2, TRUE, -5.7);
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Squirtle', '1993/04/02', 3, FALSE, -12.3);
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Angemon', '2005/06/12', 1, TRUE, -45.0);
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Boarmon', '2005/06/07', 7, TRUE, 20.4);
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Blossom', '1998/10/13', 3, TRUE, 17.0);
-INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Ditto', '2022/05/14', 4, TRUE, 22.0);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Charmander', '2020/02/08', -11.0, FALSE, 0);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Plantmon', '2021/11/15', -5.7, TRUE, 2);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Squirtle', '1993/04/02', -12.3, FALSE, 3);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Angemon', '2005/06/12', -45.0, TRUE, 1);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Boarmon', '2005/06/07', 20.4, TRUE, 7);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Blossom', '1998/10/13', 17.0, TRUE, 3);
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts) VALUES ('Ditto', '2022/05/14', 22.0, TRUE, 4);
 -- query mulitple tables
 INSERT INTO species(name) VALUES('Pokemon');
 INSERT INTO species(name) VALUES('Digimon');
